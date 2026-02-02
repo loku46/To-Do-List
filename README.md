@@ -25,6 +25,3 @@ This project helps users add, complete, and delete daily tasks while learning th
 
 
 
-
-## 📁 Project Structure
-
