@@ -10,7 +10,7 @@ body {
 .todo-container {
     background: white;
     padding: 20px;
-    width: 300px;
+    width: 320px;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
@@ -23,6 +23,7 @@ h2 {
 .input-section {
     display: flex;
     gap: 5px;
+    margin-bottom: 10px;
 }
 
 input {
@@ -33,7 +34,7 @@ input {
 }
 
 button {
-    padding: 8px 12px;
+    padding: 8px 10px;
     border: none;
     background: #28a745;
     color: white;
@@ -41,14 +42,17 @@ button {
     cursor: pointer;
 }
 
+#updateBtn {
+    background: #007bff;
+}
+
 button:hover {
-    background: #218838;
+    opacity: 0.9;
 }
 
 ul {
     list-style: none;
     padding: 0;
-    margin-top: 15px;
 }
 
 li {
@@ -66,15 +70,16 @@ li.completed span {
     color: gray;
 }
 
-.delete-btn {
-    background: red;
-    border: none;
-    color: white;
-    padding: 4px 8px;
-    border-radius: 4px;
-    cursor: pointer;
+.actions button {
+    margin-left: 4px;
+    padding: 4px 6px;
+    font-size: 12px;
 }
 
-.delete-btn:hover {
-    background: darkred;
+.edit-btn {
+    background: orange;
+}
+
+.delete-btn {
+    background: red;
 }
